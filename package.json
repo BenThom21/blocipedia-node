@@ -2,10 +2,10 @@
   "name": "blocipedia-node",
   "version": "1.0.0",
   "description": "A wikipedia-like app for users to discover content",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "export NODE_ENV=test && jasmine",
-    "start": "node app/server.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
