@@ -2,7 +2,7 @@
 
 
 module.exports = {
-    index(req, res, next){ 
+    index(req, res, next) { 
         res.render("static/index", {title: "Welcome to DevWiki"});
     }
-  }
+}
